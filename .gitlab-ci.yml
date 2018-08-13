@@ -1,0 +1,13 @@
+image: docker:stable
+services:
+- docker:dind
+
+stages:
+- build
+
+build:
+  stage: build
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
+    - docker build --pull -t registry.gitlab.com/tehspede/home .
+    - docker push registry.gitlab.com/tehspede/home

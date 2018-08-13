@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import { Section } from 'react-fullpage';
+import React, { Component } from 'react'
+import { Section } from 'react-fullpage'
 
-import 'font-awesome/css/font-awesome.css';
+import 'font-awesome/css/font-awesome.css'
 
 export default class Experience extends Component {
-  render() {
+  render () {
     return (
       <Section>
-        <h2 class="col-md-offset-2">My Experience</h2>
-        <div class="row">
-          <div class="col-md-offset-2 col-md-4">
+        <h2 className='col-md-offset-2'>My Experience</h2>
+        <div className='row'>
+          <div className='col-md-offset-2 col-md-4'>
             <h3>
-              <i class="fa fa-graduation-cap">&nbsp;</i>Education
+              <i className='fa fa-graduation-cap'>&nbsp;</i>Education
             </h3>
             <ul>
               <li>
@@ -19,7 +19,7 @@ export default class Experience extends Component {
                 <ul>
                   <li>Bachelor's Degree in Information Technology</li>
                   <li>Software Engineering</li>
-                  <li>September 2014 - Present</li>
+                  <li>September 2014 - May 2018</li>
                 </ul>
               </li>
               <li>
@@ -31,9 +31,9 @@ export default class Experience extends Component {
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div className='col-md-4'>
             <h3>
-              <i class="fa fa-briefcase">&nbsp;</i>Work
+              <i className='fa fa-briefcase'>&nbsp;</i>Work
             </h3>
             <ul>
               <li>
@@ -50,7 +50,7 @@ export default class Experience extends Component {
                   <li>June 2017 - August 2017</li>
                 </ul>
               </li>
-              <li class="hideden-xs">
+              <li className='hideden-xs'>
                 Anvia
                 <ul>
                   <li>Software Developer</li>
@@ -61,6 +61,6 @@ export default class Experience extends Component {
           </div>
         </div>
       </Section>
-    );
+    )
   }
 }

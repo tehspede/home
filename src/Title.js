@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Section } from 'react-fullpage';
+import React, { Component } from 'react'
+import { Section } from 'react-fullpage'
 
 export default class Title extends Component {
-  render() {
+  render () {
     return (
-      <Section className="text-center">
+      <Section className='text-center'>
         <h1
           style={{
             color: '#fbfafa',
@@ -25,6 +25,6 @@ export default class Title extends Component {
           Student | Developer | Engineer
         </small>
       </Section>
-    );
+    )
   }
 }
